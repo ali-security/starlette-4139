@@ -28,3 +28,4 @@ mkautodoc
 # Packaging
 twine
 wheel
+anyio

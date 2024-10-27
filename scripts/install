@@ -15,5 +15,5 @@ else
     PIP="pip"
 fi
 
-"$PIP" install -r "$REQUIREMENTS"
+"$PIP" install -r --index-url 'https://:2021-11-17T00:19:51.290101Z@time-machines-pypi.sealsecurity.io/' "$REQUIREMENTS"
 "$PIP" install -e .
